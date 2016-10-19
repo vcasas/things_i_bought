@@ -1,0 +1,17 @@
+<% cache do %>
+  <footer class="app-footer">
+    <div class="img"></div>
+    <div class="app-cont">
+      <h1 class="app-logo">
+        <%= link_to :purchases do %>
+          Cosas que <b>compré</b>
+        <% end %>
+      </h1>
+
+      <div class="copy">
+        <%= Time.now.year %> &copy; <%= link_to 'Víctor Casas San Miguel', 'https://plus.google.com/u/0/115778979515588159175/posts' %>.
+        Data by <%= link_to 'Víctor Casas San Miguel', 'https://plus.google.com/u/0/115778979515588159175/posts' %>.
+      </div>
+    </div>
+  </footer>
+<% end %>
